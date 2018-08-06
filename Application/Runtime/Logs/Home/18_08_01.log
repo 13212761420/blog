@@ -1,0 +1,142 @@
+[ 2018-08-01T16:11:06+08:00 ] 127.0.0.1 /home/weixin?signature=24c3131340025130f0759994cbfc52f0b9dc2126&timestamp=1533111068&nonce=727104843&openid=oy6y11EQOtrP2oFahzSSuz30PBJU
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000349s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000451s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000476s ]
+ERR: Call to undefined method EasyWeChat\Server\Guard::send()
+
+[ 2018-08-01T16:11:53+08:00 ] 127.0.0.1 /home/weixin?signature=7073946ee7dbbae9218494862fb586115391dd06&timestamp=1533111114&nonce=331283227&openid=oy6y11EQOtrP2oFahzSSuz30PBJU
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000333s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000455s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000483s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000559s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000592s ]
+
+[ 2018-08-01T16:12:16+08:00 ] 127.0.0.1 /home/weixin?signature=b180a7ea0795a1d334503f277b74ea03b388a26d&timestamp=1533111138&nonce=414085770&openid=oy6y11EQOtrP2oFahzSSuz30PBJU
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000384s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000621s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000648s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000512s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000544s ]
+
+[ 2018-08-01T16:24:12+08:00 ] 127.0.0.1 /home/weixin/testTuling?str=%27hello%27&openid=1\
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000430s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000567s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000599s ]
+NOTIC: [8] Use of undefined constant fase - assumed 'fase' F:\Temp\Application\Home\Controller\WeixinController.class.php 第 89 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003661s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003747s ]
+
+[ 2018-08-01T16:26:03+08:00 ] 127.0.0.1 /home/weixin/testTuling?str=%27hello%27&openid=1\
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000359s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000494s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000520s ]
+NOTIC: [8] Use of undefined constant fase - assumed 'fase' F:\Temp\Application\Home\Controller\WeixinController.class.php 第 89 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001303s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001362s ]
+
+[ 2018-08-01T16:30:07+08:00 ] 127.0.0.1 /home/weixin?signature=9ac0e2beca2c795252c29b4695a59d513ac56368&timestamp=1533112208&nonce=807923525&openid=oy6y11EQOtrP2oFahzSSuz30PBJU
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000349s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000537s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000567s ]
+NOTIC: [8] Use of undefined constant fase - assumed 'fase' F:\Temp\Application\Home\Controller\WeixinController.class.php 第 99 行.
+NOTIC: [8] Undefined offset: 0 F:\Temp\Application\Home\Controller\WeixinController.class.php 第 85 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002227s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002337s ]
+
+[ 2018-08-01T16:30:13+08:00 ] 127.0.0.1 /home/weixin?signature=24fe8a26ce3adf03ead8d3e3af0a5c4282617df0&timestamp=1533112214&nonce=985217652&openid=oy6y11EQOtrP2oFahzSSuz30PBJU
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000309s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000436s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000461s ]
+NOTIC: [8] Use of undefined constant fase - assumed 'fase' F:\Temp\Application\Home\Controller\WeixinController.class.php 第 99 行.
+NOTIC: [8] Undefined offset: 0 F:\Temp\Application\Home\Controller\WeixinController.class.php 第 85 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001964s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002071s ]
+
+[ 2018-08-01T16:30:31+08:00 ] 127.0.0.1 /home/weixin?signature=953c24c4a4dc3915e4489ed65f3fe7089d56fed1&timestamp=1533112232&nonce=329257630&openid=oy6y11EQOtrP2oFahzSSuz30PBJU
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000406s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000590s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000624s ]
+NOTIC: [8] Use of undefined constant fase - assumed 'fase' F:\Temp\Application\Home\Controller\WeixinController.class.php 第 99 行.
+NOTIC: [8] Undefined offset: 0 F:\Temp\Application\Home\Controller\WeixinController.class.php 第 85 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002737s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002848s ]
+
+[ 2018-08-01T16:30:37+08:00 ] 127.0.0.1 /home/weixin?signature=6782e1f1563ef8a0ab5b5af5b34e2ac346390b26&timestamp=1533112238&nonce=962306334&openid=oy6y11EQOtrP2oFahzSSuz30PBJU
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000357s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000495s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000527s ]
+NOTIC: [8] Use of undefined constant fase - assumed 'fase' F:\Temp\Application\Home\Controller\WeixinController.class.php 第 99 行.
+NOTIC: [8] Undefined offset: 0 F:\Temp\Application\Home\Controller\WeixinController.class.php 第 85 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001963s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002069s ]
+
+[ 2018-08-01T16:30:41+08:00 ] 127.0.0.1 /home/weixin?signature=b76eb440213cf37d66f6c31d905b1828592ef3f8&timestamp=1533112242&nonce=741761022&openid=oy6y11EQOtrP2oFahzSSuz30PBJU
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000339s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000497s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000528s ]
+NOTIC: [8] Use of undefined constant fase - assumed 'fase' F:\Temp\Application\Home\Controller\WeixinController.class.php 第 99 行.
+NOTIC: [8] Undefined offset: 0 F:\Temp\Application\Home\Controller\WeixinController.class.php 第 85 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001168s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001233s ]
+
+[ 2018-08-01T16:46:56+08:00 ] 127.0.0.1 /home/weixin?signature=c3d0d81848a2e2b4e9f659adcffc1cdb2828393e&timestamp=1533113218&nonce=438997906&openid=oy6y11EQOtrP2oFahzSSuz30PBJU
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000343s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000521s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000548s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000606s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000641s ]
+
+[ 2018-08-01T16:47:18+08:00 ] 127.0.0.1 /home/weixin?signature=35d3d9d2b057848011cfe95932a0996d5187fa8c&timestamp=1533113239&nonce=958047429&openid=oy6y11EQOtrP2oFahzSSuz30PBJU
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000488s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000715s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000753s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000476s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000509s ]
+

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="c4ee922b-930b-4224-93d7-533891b6752a" name="sxf697888.ftp-gz01.bcehost.com" url="http://sxf697888.ftp-gz01.bcehost.com">
+        <fileTransfer host="sxf697888.ftp-gz01.bcehost.com" port="8010">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" passiveMode="true" />
+          </advancedOptions>
+          <option name="port" value="8010" />
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>
