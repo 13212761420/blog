@@ -21,7 +21,8 @@
 <header>
   <nav id="nav">
     <ul>
-      <?php if(is_array($data)): foreach($data as $key=>$value): ?><li><a href="<?php echo ($value["link"]); ?>" ><?php echo ($value["classify"]); ?></a></li><?php endforeach; endif; ?>
+        <li><a href="/home/index/index">网站首页</a></li>
+      <?php if(is_array($data)): foreach($data as $key=>$value): ?><li><a href="/home/index/index?id=<?php echo ($value["type"]); ?>" ><?php echo ($value["classify"]); ?></a></li><?php endforeach; endif; ?>
     </ul>
     <div><a href="/home/login/register" style="color:#f9f9f9;float:right;border:2px solid #a5abac; background-color: #494c4c; border-radius:3px; margin-top:10px; padding:2px 20px;">注&nbsp;册</a></div>
     <div style=""><a href="/home/login/login" style="color:#f9f9f9;border:2px solid #a5abac; background-color: #494c4c; border-radius:3px; margin-top:10px; padding:2px 20px;float:right;">登&nbsp;陆</a></div>
@@ -62,8 +63,8 @@
           <!--圆形-->
           <h2 class="title"><a href="/" target="_blank"><?php echo ($value["title"]); ?></a></h2>
           <ul class="textinfo">
-            <a href="/"><img src="<?php echo ($value["img"]); ?>"></a>
-            <p><?php echo (mb_substr($value["text"],0,135)); ?>...</p>
+            <a href="/home/details/index?id=<?php echo ($value["id"]); ?>"><img src="<?php echo ($value["img"]); ?>"></a>
+            <a href="/home/details/index?id=<?php echo ($value["id"]); ?>"><p><?php echo (mb_substr($value["text"],0,135)); ?>...</p></a>
           </ul>
           <ul class="details">
             <li class="likes"><a href="#"><?php echo ($value["collect"]); ?></a></li>

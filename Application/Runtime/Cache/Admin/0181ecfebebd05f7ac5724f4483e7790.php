@@ -22,7 +22,6 @@
 </head>
 <style type="text/css">
     .btn-yangshi{padding:2px 15px;color:#f6f8fb;border-radius:4px;}
-
 </style>
 
 <body class="gray-bg">
@@ -63,7 +62,6 @@
             </div>
         </div>
     </div>
-
     <!-- 模态框（Modal） -->
     <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
         <div class="modal-dialog">
@@ -95,7 +93,6 @@
     <script src="../../../Public/hou/js/demo/peity-demo.min.js"></script>
     <script>
         $(document).ready(function(){$(".i-checks").iCheck({checkboxClass:"icheckbox_square-green",radioClass:"iradio_square-green",})});
-
         $(function(){
              $("#shanchu").on('click', function(){
                 var id = $(this).attr('data-id');
@@ -115,7 +112,6 @@
                     }
                 });
             })
-
              $('#myModal').on('show.bs.modal', function(event){
                 var button = $(event.relatedTarget);
                 var id = button.data('id');

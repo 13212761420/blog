@@ -21,8 +21,9 @@
 <header>
   <nav id="nav">
     <ul>
+        <li><a href="/home/index/index">网站首页</a></li>
       <foreach name="data" item="value">
-        <li><a href="{$value.link}" >{$value.classify}</a></li>
+        <li><a href="/home/index/index?id={$value.type}" >{$value.classify}</a></li>
       </foreach>
     </ul>
     <div><a href="/home/login/register" style="color:#f9f9f9;float:right;border:2px solid #a5abac; background-color: #494c4c; border-radius:3px; margin-top:10px; padding:2px 20px;">注&nbsp;册</a></div>
@@ -65,8 +66,8 @@
           <!--圆形-->
           <h2 class="title"><a href="/" target="_blank">{$value.title}</a></h2>
           <ul class="textinfo">
-            <a href="/"><img src="{$value.img}"></a>
-            <p>{$value.text|mb_substr=0,135}...</p>
+            <a href="/home/details/index?id={$value.id}"><img src="{$value.img}"></a>
+            <a href="/home/details/index?id={$value.id}"><p>{$value.text|mb_substr=0,135}...</p></a>
           </ul>
           <ul class="details">
             <li class="likes"><a href="#">{$value.collect}</a></li>
